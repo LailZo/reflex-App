@@ -1,0 +1,59 @@
+.main-directory-text {
+  line-height: 150px;
+  font-size: 2em;
+  color: #ecf0f1;
+  text-shadow: -1px -1px 0 #2c3e50, 1px -1px 0 #2c3e50, -1px 1px 0 #2c3e50,
+    1px 1px 0 #2c3e50;
+}
+
+#home-container > div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  box-shadow: 3px 4px 5px #888888;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#home-container > div:active {
+  border: inset;
+}
+
+#Laila {
+  grid-area: w;
+}
+
+#Lian {
+  grid-area: w;
+}
+
+#Daniel {
+  grid-area: w;
+  /* background-color: green; */
+}
+#Hussam {
+  grid-area: w;
+}
+
+.seek {
+  background-color: yellowgreen;
+}
+
+#button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 1vh;
+  width: 5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 2px #bdd4cd inset;
+  border-left: none;
+  cursor: pointer;
+}
